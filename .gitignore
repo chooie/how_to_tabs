@@ -1,0 +1,23 @@
+# Mac OS X
+.DS_Store
+
+# WebStorm
+.idea/workspace.xml
+
+# npm
+node_modules/**/.bin/
+
+# Karma binaries
+node_modules/karma/node_modules/chokidar/node_modules/fsevents/build/
+node_modules/karma/node_modules/socket.io/node_modules/engine.io/node_modules/ws/node_modules/bufferutil/build/
+node_modules/karma/node_modules/socket.io/node_modules/engine.io/node_modules/ws/node_modules/utf-8-validate/build/
+node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/ws/node_modules/bufferutil/build/
+node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/ws/node_modules/utf-8-validate/build/
+
+# Karma's binaries don't build on vanilla Windows because they require Python.
+# They're optional, so we've removed them from the repository and ignored them:
+node_modules/karma/node_modules/chokidar/node_modules/fsevents/
+node_modules/karma/node_modules/socket.io/node_modules/engine.io/node_modules/ws/node_modules/bufferutil/
+node_modules/karma/node_modules/socket.io/node_modules/engine.io/node_modules/ws/node_modules/utf-8-validate/
+node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/ws/node_modules/bufferutil/
+node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/ws/node_modules/utf-8-validate/
